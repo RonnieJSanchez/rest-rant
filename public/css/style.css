@@ -1,6 +1,23 @@
-* {
+h1{
   text-align: center;
   color: cornflowerblue;
+}
+h2{
+  text-align: center;
+  color: cornflowerblue;
+}
+p{
+  text-align: center;
+  color: cornflowerblue;
+}
+.btn-primary{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 img {
   max-width: 100%;
