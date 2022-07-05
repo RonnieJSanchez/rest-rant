@@ -5,13 +5,13 @@ module.exports = [
     city: "Seattle",
     state: "WA",
     cuisines: "Thai, Pan-Asian",
-    pic: "/images/noodles.jpg",
+    pic: "/images/thai-food.jpg",
   },
   {
     name: "Coding Cat Cafe",
     city: "Phoenix",
     state: "AZ",
     cuisines: "Coffee, Bakery",
-    pic: "/images/pancakes.jpg",
+    pic: "/images/coffee.jpg",
   },
 ];
