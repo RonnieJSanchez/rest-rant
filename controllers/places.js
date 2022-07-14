@@ -14,16 +14,17 @@ router.get("/", (req, res) => {
   })
 });
 //POST ROUTE
-router.post("/", (req, res) => {
-  db.Place.create(req.body)
-  .then(()=> {
-    res.redirect('/places')
-  })
-  .catch(err =>{
-    console.log('err', err)
-    res.render('error404')
-  })
-});
+router.post('/', (req, res) => {
+    db.Place.create(req.body)
+    .then(() => {
+        res.redirect('/places')
+    })
+    .catch(err => {
+        console.log('err', err)
+        res.render('error404')
+    })
+})
+
 
 //NEW
 router.get("/new", (req, res) => {
