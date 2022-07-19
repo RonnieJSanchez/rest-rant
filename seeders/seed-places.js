@@ -7,7 +7,7 @@ db.Place.create([
     city: "Seattle",
     state: "WA",
     cuisines: "Thai, Pan-Asian",
-    pic: "/images/noodles.jpg",
+    pic: "/images/thai-food.jpg",
     founded: 1989,
   },
   {
@@ -15,7 +15,7 @@ db.Place.create([
     city: "Phoenix",
     state: "AZ",
     cuisines: "Coffee, Bakery",
-    pic: "/images/pancakes.jpg",
+    pic: "/images/coffee.jpg",
     founded: 2020,
   },
 ]);

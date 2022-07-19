@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const placeSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  pic: { type: String, default: "https://www.placecage.com/c/200/300" },
+  pic: { type: String, default: "/images/swedishChef.jpg" },
   cuisines: { type: String, required: true },
   city: { type: String, default: "Anytown" },
   state: { type: String, default: "USA" },
